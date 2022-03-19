@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #6d6a6af1;
+}
+.wrapper img{
+    position: relative;
+    left: 30%;
+   
+}
+
+.wrapper{
+    width: 70%;
+    height: 40em;
+    background: #eceaea;
+    margin: auto;
+    display: none;
+    position: relative;
+   top: 10%;
+    
+}
+
+form{
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.collins{
+    width: 100%;
+    
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #2c2b2b;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 4%;
+    
+  }
+  input:hover{
+      opacity: 0.3;
+  }
+  #btn{
+      width: 100%;
+      border: 2px solid #2c2b2b;
+      border-radius: 10px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      background: #056991;
+      cursor: pointer;
+
+  }
+  #btn:hover{
+      opacity: 0.5;
+      color: beige;
+  }
+
+  #forgot{
+     position: absolute;
+     right: 36%;
+     bottom: 2%;
+     
+  }
+
+  a{
+      text-decoration: none;
+  }
+  #close{
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      width: 20px;
+      height: 20px;
+  }
+
+  #close:hover{
+      color: red;
+      background: black;
+      cursor: pointer;
+
+  }
+
+  .container{
+      background: #056991;
+      width: 50%;
+      height: 50em;
+      margin: auto;
+
+  }
+
+   #check1{
+     margin: auto;
+      color: red;
+  } 
+
+   #check2{
+     margin: auto;
+      color: red;
+  } 
+
+  .blink{
+      color: red;
+      animation: blin 1s linear infinite;
+  }
+  @keyframes blin{
+      50%{
+          opacity: 0;
+      }
+  }
+  .icon{
+      position: absolute;
+      bottom: 15%;
+      right: 50%;
+      width: 25%;
+      height: 2em;
+      background: yellow;
+      margin-right: 20px;
+
+  }
+
+  #icon3{
+      position:absolute;
+     bottom: 12%;
+     right: 30%; 
+  }
+  #icon2{
+      position:absolute;
+     bottom: 12%;
+     right: 50%; 
+  }
+  #icon1{
+      position:absolute;
+     bottom: 12%;
+     right: 70%; 
+  }
+  h3{
+      position: absolute;
+      bottom: 15%;
+      right: 50%;
+      color: #080808;
+      font-size: 20px;
+  }
